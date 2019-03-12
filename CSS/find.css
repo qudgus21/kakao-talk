@@ -1,0 +1,31 @@
+.find_options{
+  display: flex;
+  background-color: #d7d4d4;
+  justify-content: space-between;
+  padding: 25px 20px 20px 35px;
+  color: #8C4412;
+}
+.find_option{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.find_option-title{
+  margin-top: 15px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.find_recommend-header{
+  padding: 5px;
+  color: #d7d4d4;
+  font-size: 12px;
+}
+.find_recommend-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border-top: 1px solid #d7d4d4;
+  border-bottom: 1px solid #d7d4d4;
+  color: #d7d4d4;
+}

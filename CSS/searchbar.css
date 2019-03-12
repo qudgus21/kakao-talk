@@ -1,0 +1,25 @@
+.find_friends{
+  text-align: center;
+  margin: 17px 20px;
+  position: relative;
+}
+.find_friends input{
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color:#f1f2f3;
+  border: 1px solid transparent;
+  padding: 10px 0
+}
+
+.find_friends  input:focus {
+  outline: none;
+  border-color: #ffe94a;
+}
+.find_friends i{
+  position: absolute;
+  top: 12px;
+  left: 20px;
+  color: #bec2c6;
+}

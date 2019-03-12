@@ -1,0 +1,29 @@
+.navigation{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #b4b4b4;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px 10px 40px;
+  background-color: rgb(247, 244, 246);
+}
+.nav_column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #b4b4b4;
+  text-decoration: none;
+  transition:.3s transform linear;
+}
+.nav_column-title{
+  font-size: 12px;
+  padding-top: 10px;
+}
+.nav_column-selected{
+  color: #8C4412;
+}
+.nav_column:hover{
+  transform: scale(1.2);
+}

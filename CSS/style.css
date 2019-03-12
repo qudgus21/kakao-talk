@@ -1,2 +1,11 @@
 @import "reset.css";
-@import "glogal.css";
+@import "global.css";
+@import "header.css";
+@import "navigation.css";
+@import "searchbar.css";
+@import "friends.css";
+@import "chats.css";
+@import "find.css";
+@import "more.css";
+@import "chat.css";
+@import "profile.css";

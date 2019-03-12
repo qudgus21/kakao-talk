@@ -1,0 +1,90 @@
+.first_section{
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+}
+.uprofile{
+  display: flex;
+}
+.uprofile img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.comment i{
+  margin-top: 5px;
+  color: #8C4412;
+}
+.profile_info{
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  justify-content: center;
+}
+.profile_info-name{
+  font-weight: 600;
+}
+.profile_info-mail{
+  color: #c6c0c4;
+  font-size: 11px;
+  margin-top: 5px;
+}
+.more_information{
+  margin-top: 15px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.more_information-column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.more_information-column i{
+  color: #8C4412;
+}
+.information_text{
+  margin-top: 10px;
+  font-size: 10px;
+  color: #8C4412;
+  font-weight: 600;
+}
+.plus_friends-header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 10px;
+}
+.plus_friends-more{
+  color: rgba(0,0,0,0.3);
+}
+div.plus_friends-columns{
+  padding: 20px;
+}
+.plus_friends-columns{
+  display: flex;
+  flex-wrap: wrap;
+}
+.plus_friends-column{
+  width: 50%;
+  margin-bottom: 30px;
+}
+.plus_friends-text{
+  margin-left: 20px;
+}
+.more_friends-columns{
+  display: flex;
+}
+.more_friends-column{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+}
+.more_friends-column img{
+  width: 40px;
+  height: 40px;
+}

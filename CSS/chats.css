@@ -1,0 +1,64 @@
+.chat_html{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #e6e0e0;
+  padding: 18px;
+  text-decoration: none;
+}
+.chats_list:last-child{
+  border-bottom: 1px solid #e6e0e0;
+}
+.chat_contents{
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+}
+.chat_contents img{
+  width: 40px;
+  border-radius: 50%;
+}
+
+.chat_contents-profile{
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.profile_name{
+  font-size: 17px;
+  color: black;
+  font-weight: 530;
+}
+
+.profile_title{
+  font-size: 12px;
+  color: #bab6b6;
+  margin-top: 5px;
+}
+
+.chat_time{
+  font-size: 12px;
+  color: #bab6b6;
+}
+
+.chats_btn{
+  background-color: yellow;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #8C4412;
+  box-shadow: 0px 3px 10px rgb(173, 170, 175);
+  transition: background 2s ease-in-out, color 2s ease-in-out,transform 2s ease-in-out;
+}
+.chats_btn:hover{
+  background-color: #8C4412;
+  color: white;
+  transform: rotateY(1turn);
+}

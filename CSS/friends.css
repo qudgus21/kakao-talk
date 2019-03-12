@@ -1,0 +1,36 @@
+.profile{
+  border-top: 1px solid #d7dce0;
+  border-bottom: 1px solid #d7dce0;
+  padding: 10px;
+  color: #bec2c6;
+  font-size: 14px;
+}
+.friends_list-column{
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+.friends_list-column img{
+  width: 40px;
+  border-radius: 50%;
+}
+.friends_list-name{
+  margin-left: 20px;
+}
+.issetRight_Right{
+  font-size: 12px;
+  position: absolute;
+  right: 15px;
+  background-color: #f1f2f3;
+  padding: 10px;
+  border-radius: 5px;
+  color: #9b9c9e;
+}
+
+.profile .profile_title{
+  font-size: 14px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
