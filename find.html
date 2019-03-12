@@ -9,7 +9,7 @@
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="CSS/style.css">
   </head>
   <body>
     <header class="header">
@@ -30,50 +30,45 @@
       </div>
       <div class="bottom_header">
         <div class="bottom_header-column">
-          <span class="bottom_header-title">Manage</span>
+          <span class="bottom_header-title">Edit</span>
         </div>
         <div class="bottom_header-column">
-          <span class="bottom_header-name">Friends</span>
-          <span class="bottom_header-number">1</span>
+          <span class="bottom_header-name">Find</span>
         </div>
         <div class="bottom_header-column">
-          <i class="fas fa-cog fa-lg"></i>
         </div>
       </div>
     </header>
-    <main class="friends">
-      <div class="find_friends">
-        <i class="fa fa-search fa-lg"></i>
-        <input type="text" placeholder="Find friends, chats, Plus Friends">
-      </div>
-      <div class="profile">
-        <span>My Profile</span>
-      </div>
-      <a href="profile.html" class="friends_list">
-        <div class="friends_list-column">
-          <img src="../images/avatar.jpg">
-          <span class="friends_list-name">Nicolas</span>
+    <main class="find">
+      <section class="find_options">
+        <div class="find_option">
+          <i class="fas fa-address-book fa-lg"></i>
+          <span class="find_option-title">Find</span>
         </div>
-        <div class="friends_list-column">
-          <img src="../images/avatar.jpg">
-          <span class="friends_list-name">Friends' Names Display</span>
+        <div class="find_option">
+          <i class="fas fa-qrcode fa-lg"></i>
+          <span class="find_option-title">QR Code</span>
         </div>
-      </a>
-      <div class="profile">
-        <span class="profile_title">Friends</span>
-      </div>
-      <div class="friends_list">
-        <div class="friends_list-column">
-          <img src="../images/avatar.jpg">
-          <span class="friends_list-name">Nicolas</span>
-          <div class="issetRight_Right">
-            <span>Life is short.So live your life.</span>
-          </div>
+        <div class="find_option">
+          <i class="fas fa-mobile-alt fa-lg"></i>
+          <span class="find_option-title">Shake</span>
         </div>
-      </div>
+        <div class="find_option">
+          <i class="far fa-envelope fa-lg"></i>
+          <span class="find_option-title">Invite via SMS</span>
+        </div>
+      </section>
+      <section class="find_recommend">
+        <header class="find_recommend-header">
+          <span class="header_title">Recommended Friends</span>
+        </header>
+        <div class="find_recommend-content">
+          <span class="content-text">You have no recommended friends</span>
+        </div>
+      </section>
     </main>
     <nav class="navigation">
-      <a href="index.html"class="nav_column nav_column-selected">
+      <a href="index.html"class="nav_column">
         <i class="fas fa-user fa-lg"></i>
         <span class="nav_column-title">Friends</span>
       </a>
@@ -81,7 +76,7 @@
         <i class="fas fa-comment fa-lg"></i>
         <span class="nav_column-title">Chats</span>
       </a>
-      <a href="find.html" class="nav_column">
+      <a href="find.html" class="nav_column  nav_column-selected">
         <i class="fas fa-search fa-lg"></i>
         <span class="nav_column-title">Find</span>
       </a>
